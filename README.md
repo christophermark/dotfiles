@@ -8,9 +8,9 @@ Some things to remember and keep when getting dev environments up and running.
 - Text Size: 14 pt
 
 ## Atom Installation
-1) Install Atom
-2) Install packages below (atom doesn't have a config file for installed packages)
-3) Copy over config files from the `.atom` directory here
+1) Install Atom <br>
+2) Install packages below (atom doesn't have a config file for installed packages) <br>
+3) Copy over config files from the `.atom` directory here <br>
 #### Atom Packages
 - nuclide
 - docblockr
