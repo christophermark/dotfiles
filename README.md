@@ -35,6 +35,9 @@ See my `styles.less` file in the `.atom` directory
 Sync installed packages via "starred" repos.
 https://discuss.atom.io/t/bower-style-package-json-to-import-install-packages-across-devices/11587/2
 
+## Karabiner key mappings
+Use the private.xml file in the Karabiner directory
+
 ## Windows
 #### Node
 NPM's node-gyp requires Microsoft Visual Studio.
