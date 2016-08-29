@@ -10,6 +10,9 @@ export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 # Change the java version to explicitly use Java 7
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7.0_79`
 
+# Set the default editor
+export EDITOR=vim
+
 # Add Z functionality
 . `brew --prefix`/etc/profile.d/z.sh
 
