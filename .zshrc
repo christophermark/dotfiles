@@ -10,15 +10,17 @@ export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 # Change the java version to explicitly use Java 7
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7.0_79`
 
-# Set the default editor
+# Set the default editor (note: will set the ZLE to vi mode)
 export EDITOR=vim
+# Bring back the default ZLE mode, undoing the change to vi mode above
+bindkey -e
 
 # Add Z functionality
 . `brew --prefix`/etc/profile.d/z.sh
 
 ############################################################
 
-# Map the numpad to work correctly.
+# Map the numpad to work correctly. (only works for zsh emacs line editor mode)
 # 0 . Enter
 bindkey -s "^[Op" "0"
 bindkey -s "^[On" "."
@@ -86,7 +88,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
 
