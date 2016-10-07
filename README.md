@@ -6,6 +6,7 @@ Some things to remember and keep when getting dev environments up and running.
 - Color Profile: HomeBrew
 - Text Color: White
 - Text Size: 14 pt
+- When the shell exits: close the window
 
 ## Atom Installation
 1) Install Atom <br>
