@@ -15,6 +15,9 @@ export EDITOR=vim
 # Bring back the default ZLE mode, undoing the change to vi mode above
 bindkey -e
 
+# Alias for the Android hardware button
+alias wake="adb shell input keyevent 82"
+
 # Add Z functionality
 . `brew --prefix`/etc/profile.d/z.sh
 

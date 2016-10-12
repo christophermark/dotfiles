@@ -22,24 +22,13 @@
 
 	<!-- Key Rebindings -->
 	<item>
-		<name>Keymappings for Chris (F1 to wake screen)</name>
-		<appendix>Rebinds the F1 key to an adb shell command, waking the screen of an attached android device.</appendix>
-		<identifier>f1_to_wake_android</identifier>
+		<name>ADB Mappings</name>
+		<appendix>Rebinds the F12 key to an adb shell command, waking the screen of an attached android device.</appendix>
+		<identifier>f12_to_wake_android</identifier>
 		<autogen>
 			__KeyToKey__
-			KeyCode::F1,
+			KeyCode::F12,
 			KeyCode::VK_OPEN_URL_unlock_android_screen,
-		</autogen>
-	</item>
-
-	<item>
-		<name>F2 to unlock Android screen and open Robin</name>
-		<appendix>Rebinds the F2 key to an adb shell command, waking the screen of an attached android device and opening robin.</appendix>
-		<identifier>f2_to_wake_android_and_open_robin</identifier>
-		<autogen>
-			__KeyToKey__
-			KeyCode::F2,
-			KeyCode::VK_OPEN_URL_unlock_android_screen_and_open_robin,
 		</autogen>
 	</item>
 
