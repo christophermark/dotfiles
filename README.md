@@ -6,7 +6,8 @@ Some things to remember and keep when getting dev environments up and running.
 - Color Profile: HomeBrew
 - Text Color: White
 - Text Size: 14 pt
-- When the shell exits: close the window
+- [Shell tab] When the shell exits: close the window
+- [Advanced tab] Uncheck "Allow VT100 application keypad mode" to allow numpad in Vim.
 
 ## Atom Installation
 1) Install Atom <br>
