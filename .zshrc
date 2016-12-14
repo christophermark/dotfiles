@@ -6,6 +6,8 @@ export ZSH=$HOME/.oh-my-zsh
 # PATH
 # ADB and Android SDK tools
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+# Add Homebrew to the path
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Change the java version to explicitly use Java 7
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7.0_79`
@@ -15,7 +17,9 @@ export EDITOR=vim
 # Bring back the default ZLE mode, undoing the change to vi mode above
 bindkey -e
 
-# Alias for the Android hardware button
+# Alias for the restarting React Native local server.
+alias reverse="adb reverse tcp:8081 tcp:8081"
+# Wake a connected Android device via the hardware button.
 alias wake="adb shell input keyevent 82"
 
 # Add Z functionality
