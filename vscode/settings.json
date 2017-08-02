@@ -1,0 +1,18 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontFamily": "Source code pro, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    // Prevent scrolling past last line of code in file
+    "editor.scrollBeyondLastLine": false,
+    "react-native-storybooks.port": 7007,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    // Ruler for recommended line length
+    "editor.rulers": [120],
+    // Prevent left explorer from jumping to the current file
+    "explorer.autoReveal": false,
+    "editor.minimap.enabled": false
+}
