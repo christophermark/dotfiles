@@ -10,7 +10,7 @@ export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Change the java version to explicitly use Java 7
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7.0_79`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_112`
 
 # Set the default editor (note: will set the ZLE to vi mode)
 export EDITOR=vim
@@ -21,6 +21,31 @@ bindkey -e
 alias reverse="adb reverse tcp:8081 tcp:8081"
 # Wake a connected Android device via the hardware button.
 alias wake="adb shell input keyevent 82"
+# Reload the React Native build
+alias rr="adb shell input text 'RR'"
+
+# Alias for common build commands
+# Wake the connected Android device and open the Robin app
+alias robin="adb shell input keyevent 82 && adb shell monkey -p com.robinpowered.compass -c android.intent.category.LAUNCHER 1"
+# Aliases for building the Compass app.
+# Note: `(C)` is used to capitalize the variant string
+releaseVariants=(debug release releaseTest releaseTestDebuggable)
+for variant in ${releaseVariants}; do
+declare Variant=${(C)variant[1]}${variant[2,-1]} # Capitalized first letter: "debug" -> "Debug"
+# Build the Compass app. Example: assembleRelease
+alias assemble${Variant}="$HOME/dev/robin-compass/android/gradlew -p $HOME/dev/robin-compass/android/ assemble${Variant}"
+# Install a built Compass app. Example: installRelease
+alias install${Variant}="adb install -r $HOME/dev/robin-compass/android/app/build/outputs/apk/${variant}/app-${variant}.apk"
+# Build, Install, Open the Compass app. Example: runRelease
+alias run${Variant}="assemble${Variant} && install${Variant} && robin"
+done
+# Overwrite the debug config - it requires some extra steps
+alias runDebug="assembleDebug && installDebug && reverse && robin"
+
+# Hide yo secrets, hide yo wife
+if [ -f ~/.secrets ]; then
+  source ~/.secrets
+fi
 
 # Add Z functionality
 . `brew --prefix`/etc/profile.d/z.sh
@@ -123,3 +148,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
