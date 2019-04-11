@@ -17,6 +17,12 @@ export EDITOR=vim
 # Bring back the default ZLE mode, undoing the change to vi mode above
 bindkey -e
 
+########## Git Aliases ##########
+
+alias branchlist="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' | less"
+
+########## Mobile Development Aliases ##########
+
 # Alias for the restarting React Native local server.
 alias reverse="adb reverse tcp:8081 tcp:8081"
 # Wake a connected Android device via the hardware button.
