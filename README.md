@@ -43,7 +43,7 @@ Use the private.xml file in the Karabiner directory
 ## Miscellaneous Apps
 - [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scroll wheel direction while keeping track pad direction
 - `SteelSeries ExactMouse`: Remove all mouse acceleration only for external mice, not the track pad
-  - See the `apps` directory in this repository
+  - See the `apps` directory in this repository to download
 - [`LICEcap`](https://www.cockos.com/licecap/): Best tool I've found for screen-recording GIFs
 - [`Pixel Winch`](https://www.ricciadams.com/projects/pixel-winch): For counting pixels and measuring UI
 - [`Sip App`](http://sipapp.io/): Inspect colors on your screen
