@@ -40,9 +40,12 @@ https://discuss.atom.io/t/bower-style-package-json-to-import-install-packages-ac
 ## Karabiner key mappings
 Use the private.xml file in the Karabiner directory
 
-## Windows
-#### Node
-NPM's node-gyp requires Microsoft Visual Studio.
-- Install Visual Studio Community 2015
- - Include the C++ package in a "custom" install
-- Run `npm install -g -msvs_version=2015 node-gyp rebuild`
+## Miscellaneous Apps
+- [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scroll wheel direction while keeping track pad direction
+- `SteelSeries ExactMouse`: Remove all mouse acceleration only for external mice, not the track pad
+  - See the `apps` directory in this repository
+- [`LICEcap`](https://www.cockos.com/licecap/): Best tool I've found for screen-recording GIFs
+- [`Pixel Winch`](https://www.ricciadams.com/projects/pixel-winch): For counting pixels and measuring UI
+- [`Sip App`](http://sipapp.io/): Inspect colors on your screen
+- [`Color Picker`](https://itunes.apple.com/us/app/color-picker/id641027709?mt=12): For choosing colors
+- [`Disk Inventory X`](http://www.derlien.com/): For cleaning out a full hard drive, shows sizes of directories/files
