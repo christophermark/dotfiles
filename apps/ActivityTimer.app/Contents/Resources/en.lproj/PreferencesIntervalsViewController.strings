@@ -1,0 +1,33 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "#"; ObjectID = "1ez-FL-RLd"; */
+"1ez-FL-RLd.headerCell.title" = "#";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "7x2-Mo-f3T"; */
+"7x2-Mo-f3T.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "YRK-ig-xRL"; */
+"YRK-ig-xRL.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "start"; ObjectID = "aHQ-9a-MgR"; */
+"aHQ-9a-MgR.title" = "start";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ctS-Qd-IjZ"; */
+"ctS-Qd-IjZ.title" = "Text Cell";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "You can enter time values in the following formats: e.g. '10s', '4m', 3h' or '01:30:00'"; ObjectID = "hb5-Ae-1e8"; */
+"hb5-Ae-1e8.ibShadowedToolTip" = "You can enter time values in the following formats: e.g. '10s', '4m', 3h' or '01:30:00'";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "iDG-zK-5hc"; */
+"iDG-zK-5hc.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Length"; ObjectID = "nQR-2n-8Wx"; */
+"nQR-2n-8Wx.headerCell.title" = "Length";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "sxZ-X2-MLy"; */
+"sxZ-X2-MLy.headerCell.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "t6b-dA-sKG"; */
+"t6b-dA-sKG.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "0"; ObjectID = "tGZ-35-d8h"; */
+"tGZ-35-d8h.title" = "0";

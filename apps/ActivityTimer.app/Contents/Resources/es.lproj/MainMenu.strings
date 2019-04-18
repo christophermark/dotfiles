@@ -1,0 +1,48 @@
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
+"29.title" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "Activity Timer"; ObjectID = "56"; */
+"56.title" = "Activity Timer";
+
+/* Class = "NSMenu"; title = "Activity Timer"; ObjectID = "57"; */
+"57.title" = "Activity Timer";
+
+/* Class = "NSMenuItem"; title = "About Activity Timer"; ObjectID = "58"; */
+"58.title" = "Acerca de Activity Timer";
+
+/* Class = "NSMenuItem"; title = "Hide Activity Timer"; ObjectID = "134"; */
+"134.title" = "Hide Activity Timer";
+
+/* Class = "NSMenuItem"; title = "Quit Activity Timer"; ObjectID = "136"; */
+"136.title" = "Quit Activity Timer";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Reset timer"; ObjectID = "1gK-N2-YeL"; */
+"1gK-N2-YeL.title" = "Restablecer el contador";
+
+/* Class = "NSMenuItem"; title = "Preferences..."; ObjectID = "6KV-ry-awr"; */
+"6KV-ry-awr.title" = "Preferencias...";
+
+/* Class = "NSMenuItem"; title = "Preset intervals"; ObjectID = "KLr-Eq-Sff"; */
+"KLr-Eq-Sff.title" = "Intervalos predefinidos";
+
+/* Class = "NSMenuItem"; title = "Start timer"; ObjectID = "Ksx-ZK-yLX"; */
+"Ksx-ZK-yLX.title" = "Iniciar el temporizador";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "NjB-8p-H7m"; */
+"NjB-8p-H7m.title" = "Salir";
+
+/* Class = "NSMenu"; title = "Preset intervals"; ObjectID = "bjf-2W-M90"; */
+"bjf-2W-M90.title" = "Intervalos predefinidos";
+
+/* Class = "NSMenuItem"; title = "Super info item"; ObjectID = "iLQ-ke-pbU"; */
+"iLQ-ke-pbU.title" = "Super info item";
+
+/* Class = "NSMenuItem"; title = "About Activity Timer"; ObjectID = "sbK-jm-K09"; */
+"sbK-jm-K09.title" = "Acerca de Activity Timer";

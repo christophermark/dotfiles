@@ -1,0 +1,24 @@
+
+/* Class = "NSBox"; title = "Current Activity"; ObjectID = "1L1-Oj-2pP"; */
+"1L1-Oj-2pP.title" = "Actividad actual";
+
+/* Class = "NSTextFieldCell"; title = "Current activity:"; ObjectID = "FdB-P1-uPK"; */
+"FdB-P1-uPK.title" = "Actividad actual:";
+
+/* Class = "NSTabViewItem"; label = "Activities"; ObjectID = "QXd-t4-gZI"; */
+"QXd-t4-gZI.label" = "Actividades";
+
+/* Class = "NSMenuItem"; title = "About"; ObjectID = "RjY-69-kaZ"; */
+"RjY-69-kaZ.title" = "Acerca de";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "Zks-Sb-iob"; */
+"Zks-Sb-iob.title" = "00:00:00";
+
+/* Class = "NSTabViewItem"; label = "Preferences"; ObjectID = "bDr-ku-4e0"; */
+"bDr-ku-4e0.label" = "Preferencias";
+
+/* Class = "NSButtonCell"; title = "Get the iOS App"; ObjectID = "bsW-Q5-RtU"; */
+"bsW-Q5-RtU.title" = "Obtener la App iOS";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "hHU-CS-eyi"; */
+"hHU-CS-eyi.title" = "Dejar";

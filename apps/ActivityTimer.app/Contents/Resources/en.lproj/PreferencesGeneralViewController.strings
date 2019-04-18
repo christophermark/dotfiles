@@ -1,0 +1,21 @@
+
+/* Class = "NSButtonCell"; title = "Show current timer counter in statusbar"; ObjectID = "9IH-QV-L3h"; */
+"9IH-QV-L3h.title" = "Show current timer counter in statusbar";
+
+/* Class = "NSButtonCell"; title = "Launch Activity Timer after Login"; ObjectID = "ACJ-IZ-z4w"; */
+"ACJ-IZ-z4w.title" = "Launch Activity Timer after Login";
+
+/* Class = "NSButtonCell"; title = "Show Popup when timer has finished"; ObjectID = "E4I-ig-hew"; */
+"E4I-ig-hew.title" = "Show Popup when timer has finished";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "JzP-zc-6gd"; */
+"JzP-zc-6gd.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Play sound after timer has finished:"; ObjectID = "l8f-iJ-CxD"; */
+"l8f-iJ-CxD.title" = "Play sound after timer has finished:";
+
+/* Class = "NSTextFieldCell"; title = "Shortcut Toggle start/pause"; ObjectID = "sAk-JF-Rjf"; */
+"sAk-JF-Rjf.title" = "Shortcut Toggle start/pause";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "uYi-2c-Yda"; */
+"uYi-2c-Yda.title" = "OtherViews";
