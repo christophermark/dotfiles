@@ -24,6 +24,13 @@ alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' 
 
 ########## Mobile Development Aliases ##########
 
+alias start:fresh="reset && npm run start -- --reset-cache"
+alias reset="reset:npm && reset:watchman && reset:cache"
+alias reset:cache="rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf $TMPDIR/react-*"
+alias reset:npm="rm -rf ./node_modules && npm install"
+alias reset:watchman="watchman watch-del-all"
+alias reset:pod="rm -rf ./ios/Pods && pod cache clean --all && pod install --project-directory=./ios/"
+
 # Alias for the restarting React Native local server.
 alias reverse="adb reverse tcp:8081 tcp:8081"
 # Wake a connected Android device via the hardware button.
