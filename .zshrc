@@ -6,11 +6,14 @@ export ZSH=$HOME/.oh-my-zsh
 # PATH
 # ADB and Android SDK tools
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+export PATH="$HOME/Library/Android/sdk/build-tools/28.0.3:$PATH"
 # Add Homebrew to the path
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Change the java version to explicitly use Java 7
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_112`
+export NDK_MODULE_PATH="$HOME/Library/Android/ndk-r17rc"
+export ANDROID_NDK="$HOME/Library/Android/ndk-r17rc"
 
 # Set the default editor (note: will set the ZLE to vi mode)
 export EDITOR=vim
