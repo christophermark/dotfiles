@@ -24,6 +24,11 @@ bindkey -e
 
 alias branchlist="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' | less"
 alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | head -n 8"
+alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | head -n 8"
+pr() {
+  command git fetch upstream pull/$1/head:pr-$1 &&
+    git checkout pr-$1
+}
 
 ########## Mobile Development Aliases ##########
 
