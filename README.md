@@ -9,30 +9,6 @@ Some things to remember and keep when getting dev environments up and running.
 - [Shell tab] When the shell exits: close the window
 - [Advanced tab] Uncheck "Allow VT100 application keypad mode" to allow numpad in Vim.
 
-## Atom Installation
-1) Install Atom <br>
-2) Install packages below (atom doesn't have a config file for installed packages) <br>
-3) Copy over config files from the `.atom` directory here <br>
-
-#### Atom Packages
-- nuclide
-- docblockr
-- file-icons
-- minimap
-- minimap-git-diff
-- pigments
-- project-manager
-
-#### Atom Themes
-**UI Theme** <br>
-Atom Dark
-
-**Syntax Theme** <br>
-Base16 Tomorrow Dark
-
-**Misc. Styling** <br>
-See my `styles.less` file in the `.atom` directory
-
 #### TODO
 Sync installed packages via "starred" repos.
 https://discuss.atom.io/t/bower-style-package-json-to-import-install-packages-across-devices/11587/2
