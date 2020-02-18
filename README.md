@@ -16,6 +16,16 @@ https://discuss.atom.io/t/bower-style-package-json-to-import-install-packages-ac
 ## Karabiner key mappings
 Use the private.xml file in the Karabiner directory
 
+## Main apps
+- [`iTerm2`](https://iterm2.com/): Better terminal replacement
+- [`Oh My Zsh`](https://ohmyz.sh/): Zsh shell improvements
+- [`Homebrew`](https://brew.sh/): Mac package manager
+- [`VSCode`](https://code.visualstudio.com/): IDE for code editing
+
+- [``]():
+- [``]():
+- [``]():
+
 ## Miscellaneous Apps
 - [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scroll wheel direction while keeping track pad direction
 - `SteelSeries ExactMouse`: Remove all mouse acceleration only for external mice, not the track pad
