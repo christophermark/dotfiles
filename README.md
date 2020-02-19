@@ -22,6 +22,9 @@ Use the private.xml file in the Karabiner directory
 - [`Homebrew`](https://brew.sh/): Mac package manager
 - [`VSCode`](https://code.visualstudio.com/): IDE for code editing
 
+- [`Tunnelblick`](https://tunnelblick.net/downloads.html): VPN software
+- [`Activity Timer App`](https://apps.apple.com/us/app/activity-timer/id808647808?mt=12): Excellent app for pomodoro sessions
+- [``]():
 - [``]():
 - [``]():
 - [``]():
