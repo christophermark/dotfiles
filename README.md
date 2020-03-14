@@ -24,10 +24,20 @@ Use the private.xml file in the Karabiner directory
 
 - [`Tunnelblick`](https://tunnelblick.net/downloads.html): VPN software
 - [`Activity Timer App`](https://apps.apple.com/us/app/activity-timer/id808647808?mt=12): Excellent app for pomodoro sessions
+- [`GnuPG`](https://www.gnupg.org/download/): For Git commit signature verification
+- [`Postman`](https://www.postman.com/downloads/): For testing API calls
+- [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
+- [`Sourcetree`](https://www.sourcetreeapp.com/): Great for viewing git diffs and branch visuals
 - [``]():
 - [``]():
-- [``]():
-- [``]():
+
+## New computer setup
+### Git
+- [Set git commit email](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
+- [Set up Github SSH key authentication](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+- [Set up git commit verification](https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
+### Screenshots
+- [Set a screenshots directory](https://apple.stackexchange.com/a/258696)
 
 ## Miscellaneous Apps
 - [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scroll wheel direction while keeping track pad direction
