@@ -28,8 +28,8 @@ Use the private.xml file in the Karabiner directory
 - [`Postman`](https://www.postman.com/downloads/): For testing API calls
 - [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
 - [`Sourcetree`](https://www.sourcetreeapp.com/): Great for viewing git diffs and branch visuals
-- [``]():
-- [``]():
+- [`Network Link Conditioner`](https://nshipster.com/network-link-conditioner/): For debugging/testing poor network conditions
+- [`Sip`](https://sipapp.io/): For peeking color hexes
 
 ## New computer setup
 ### Git
