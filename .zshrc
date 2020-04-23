@@ -22,13 +22,28 @@ bindkey -e
 
 ########## Git Aliases ##########
 
+# Lists the branches most recently changed
 alias branchlist="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' | less"
+# Lists the most recently visited branches
 alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | head -n 8"
-alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | head -n 8"
+# Delete any merged branches
+alias mergedBranches="git branch --merged | egrep -v '(^\*|master|dev|release)'"
+alias prBranches="git branch | egrep '^\s*pr-\d'"
+alias cleanMergedBranches="mergedBranches | xargs git branch -d"
+alias cleanprbranches="prBranches | xargs git branch -D"
+# Pull down latest changes and clean merged branches
+alias update="git checkout develop && git pull -r upstream develop"
+alias cleanup="update && cleanMergedBranches && cleanprbranches"
+
+# Checkout a PR branch from the `upstream` branch. Example: `pr 123` checks out PR 123
 pr() {
   command git fetch upstream pull/$1/head:pr-$1 &&
     git checkout pr-$1
 }
+
+########## Random Handy Aliases ##########
+
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 ########## Mobile Development Aliases ##########
 
