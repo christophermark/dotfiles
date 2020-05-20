@@ -29,11 +29,11 @@ alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' 
 # Delete any merged branches
 alias mergedBranches="git branch --merged | egrep -v '(^\*|master|dev|release)'"
 alias prBranches="git branch | egrep '^\s*pr-\d'"
-alias cleanMergedBranches="mergedBranches | xargs git branch -d"
-alias cleanprbranches="prBranches | xargs git branch -D"
+alias deleteBranches="git branch | egrep '^\s*delete/'"
+alias cleanBranches="{prBranches ; mergedBranches ; deleteBranches ;} | xargs git branch -D"
 # Pull down latest changes and clean merged branches
 alias update="git checkout develop && git pull -r upstream develop"
-alias cleanup="update && cleanMergedBranches && cleanprbranches"
+alias cleanup="update && cleanBranches"
 
 # Checkout a PR branch from the `upstream` branch. Example: `pr 123` checks out PR 123
 pr() {
