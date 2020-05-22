@@ -21,11 +21,6 @@ export EDITOR=vim
 bindkey -e
 
 ########## Git Aliases ##########
-
-# Lists the branches most recently changed
-alias branchlist="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' | less"
-# Lists the most recently visited branches
-alias br="git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | head -n 8"
 # Delete any merged branches
 alias mergedBranches="git branch --merged | egrep -v '(^\*|master|dev|release)'"
 alias prBranches="git branch | egrep '^\s*pr-\d'"
@@ -40,6 +35,16 @@ pr() {
   command git fetch upstream pull/$1/head:pr-$1 &&
     git checkout pr-$1
 }
+
+# Lists the branches most recently changed
+alias branchlist="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' | less"
+# Lists the most recently visited branches
+# Example: `br 4` lists the 4 most recent branches
+br() {
+  local LINES_TO_OUTPUT=${1:-10} # Optional argument for number of lines to display
+  command git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | awk ' !x[$0]++' | head -n $(($LINES_TO_OUTPUT+2))
+}
+
 
 ########## Random Handy Aliases ##########
 
