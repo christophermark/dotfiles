@@ -9,6 +9,10 @@ export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 export PATH="$HOME/Library/Android/sdk/build-tools/28.0.3:$PATH"
 # Add Homebrew to the path
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+# Add diff-so-fancy for pretty git diffs
+# NOTE: Run this after to apply pretty git diffs:
+# > git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+export PATH="$HOME/Library/diff-so-fancy:$PATH"
 
 # Change the java version to explicitly use Java 7
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_241`
