@@ -30,6 +30,7 @@ Use the private.xml file in the Karabiner directory
 - [`Sourcetree`](https://www.sourcetreeapp.com/): Great for viewing git diffs and branch visuals
 - [`Network Link Conditioner`](https://nshipster.com/network-link-conditioner/): For debugging/testing poor network conditions
 - [`Sip`](https://sipapp.io/): For peeking color hexes
+- [`Android Tool`](https://github.com/muandrew/androidtool-mac/releases/): For Android screen recordings (alternative to Android Studio/Flipper)
 
 ## New computer setup
 ### Git
