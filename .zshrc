@@ -13,6 +13,9 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # NOTE: Run this after to apply pretty git diffs:
 # > git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 export PATH="$HOME/Library/diff-so-fancy:$PATH"
+# Add python scripts to the path
+export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
+export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:${PYTHONPATH}"
 
 # Change the java version to explicitly use Java 7
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_241`
@@ -36,7 +39,8 @@ alias cleanup="update && cleanBranches"
 
 # Checkout a PR branch from the `upstream` branch. Example: `pr 123` checks out PR 123
 pr() {
-  command git fetch upstream pull/$1/head:pr-$1 &&
+  local UPSTREAM_BRANCH=${2:-upstream} # Optional argument for the upstream branch
+  command git fetch $UPSTREAM_BRANCH pull/$1/head:pr-$1 &&
     git checkout pr-$1
 }
 
