@@ -34,12 +34,12 @@ alias prBranches="git branch | egrep '^\s*pr-\d'"
 alias deleteBranches="git branch | egrep '^\s*delete/'"
 alias cleanBranches="{prBranches ; mergedBranches ; deleteBranches ;} | xargs git branch -D"
 # Pull down latest changes and clean merged branches
-alias update="git checkout develop && git pull -r upstream develop"
+alias update="git checkout develop && git pull -r origin develop"
 alias cleanup="update && cleanBranches"
 
-# Checkout a PR branch from the `upstream` branch. Example: `pr 123` checks out PR 123
+# Checkout a PR branch from the `origin` branch. Example: `pr 123` checks out PR 123
 pr() {
-  local UPSTREAM_BRANCH=${2:-upstream} # Optional argument for the upstream branch
+  local UPSTREAM_BRANCH=${2:-origin} # Optional argument for the upstream branch
   command git fetch $UPSTREAM_BRANCH pull/$1/head:pr-$1 &&
     git checkout pr-$1
 }
