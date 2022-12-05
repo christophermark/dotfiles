@@ -10,144 +10,100 @@
 		</data>
 		<key>Resources/ActivityTimer.momd/ActivityTimer 2.mom</key>
 		<data>
-		IjX2wprTKy2kHAtMDYAWSbo1DkM=
+		9hKxICEq8zY3k4Vz26pPWTJWbxs=
 		</data>
 		<key>Resources/ActivityTimer.momd/ActivityTimer 3.mom</key>
 		<data>
-		b/fL0FAA8wkwbt7ZJ+3aug1fKdo=
+		4VAjkWV0UXSxwtGR0YVVMeSaIUc=
 		</data>
 		<key>Resources/ActivityTimer.momd/ActivityTimer 3.omo</key>
 		<data>
-		W3jifmi2uyK3vsta8w9NdI7Sf5M=
+		cBEQfzjliFg05fhyR2mZdU8CSlM=
 		</data>
 		<key>Resources/ActivityTimer.momd/ActivityTimer.mom</key>
 		<data>
-		8E6bM8QzJjNxYEE6jeL+7iwU2HQ=
+		NnnV5s6wZU2XTuxilqeaAR6ZiUI=
 		</data>
 		<key>Resources/ActivityTimer.momd/VersionInfo.plist</key>
 		<data>
-		nW3Mxs39mDJz4jxVNIwf8v/RVQQ=
+		PbZw5O+uMC+PYMedc5ma6N3AJFs=
 		</data>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		4/LPuATAfWd2JcACC+LG1BmaZeI=
+		nPCbsdKZoWRLmWOUiojH0Kgtyd8=
 		</data>
-		<key>Resources/Base.lproj/ATNotificationWindowController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EwFByude3SffvOEY/AtpHFi+SEQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<key>Resources/Assets.car</key>
+		<data>
+		+g/IpRo5jcjwzUhaZw+mTChSi5o=
+		</data>
 		<key>Resources/Base.lproj/ATPopoverViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3WOJHNYfNcOr7A1UcsVGbO/90vM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		ymgnWYUV4FZxqr/V4Bp9jvegBLw=
+		</data>
 		<key>Resources/Base.lproj/AboutText.rtf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0W2MAnKsAEgyxjM2Rijh5VrlYUQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		xVGjI1Ijv0RkbMUYk/oplmLuHSs=
+		</data>
 		<key>Resources/Base.lproj/AboutWindowController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QBP3GPZQJrm5ApmSg02WWbPcYJk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		ffmDG/lKhD1Rh+EKFsf/n5/TN1o=
+		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zMvYBMxxceMhQ4n/SR7qzxo5Np4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		GBO96BEhd4uiicK+/Ba+pLRiJQ4=
+		</data>
+		<key>Resources/Base.lproj/NotificationWindow.nib</key>
+		<data>
+		M179QZZNGHPOwqlSTTU8QiomWCM=
+		</data>
 		<key>Resources/Base.lproj/PreferencesGeneralViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R2nGZjN0as6iyzFIXn03+7hnViE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		ggyK24SoZ1NBUmM3aXfybBzQIes=
+		</data>
 		<key>Resources/Base.lproj/PreferencesIntervalsViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RCgDLMUyrjiyGh1rfywUGXY538g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		tREgf2vszT6s4l/uKvmMV2Hh+Go=
+		</data>
 		<key>Resources/HAPPY_CODING_LOGO.png</key>
 		<data>
 		BJ0stXaSSZDSk/5+yOPm11I6iCQ=
 		</data>
-		<key>Resources/archived-expanded-entitlements.xcent</key>
-		<data>
-		EPWnZClCepLXTlRBQz8jOgCUyHo=
-		</data>
 		<key>Resources/arrow-repeat-7.tiff</key>
 		<data>
-		ICmtNe2bW8R3f3fwRmX6Tw1ItOQ=
+		8BiQ67njNrcoEMxIBFbM18WZgOU=
 		</data>
 		<key>Resources/button-pause-7-selected.tiff</key>
 		<data>
-		4+pF8PV1vRynaXpvsHXIahztWIQ=
+		spFkOTVcL0RGDRT9ktNCvojrR3k=
 		</data>
 		<key>Resources/button-pause-7.tiff</key>
 		<data>
-		6rQTy7ao0Vof44uJZ6J6gDvbdaM=
+		rg/ozzwmH62EfZED2bP9z2uBteg=
 		</data>
 		<key>Resources/button-play-7-selected.tiff</key>
 		<data>
-		iyCfPM1QpvyyPuzU5sF8KKn3/yY=
+		0IkOuRkY11ZDab2RQtzynpY+GnM=
 		</data>
 		<key>Resources/button-play-7.tiff</key>
 		<data>
-		IewBMtguA8PweP14QLvkidwjKxI=
+		qnn2kg+lW7741MXNPnloMp6izLI=
 		</data>
 		<key>Resources/button-play-mini.tiff</key>
 		<data>
-		ztKxLXSmuNhvSTehP/NZT0PtOww=
+		UwJQYrh42CuPpJ7lokzr5g4kzQE=
 		</data>
 		<key>Resources/button-stop-7-selected.tiff</key>
 		<data>
-		eW2hPpC27LO9p47hhVwEgDX8UuU=
+		E+mGm+7v6BQ088YNqIvC3tyI5mw=
 		</data>
 		<key>Resources/button-stop-7.tiff</key>
 		<data>
-		xbzpm9NjYNdFe0P8p9ZDYQKv9jc=
+		zsL3NlPwYnufkGcupZs1NTkxMeI=
 		</data>
 		<key>Resources/button-stop.tiff</key>
 		<data>
-		qdhPaVA026ApHDH3AMuVaoUFDfw=
+		pmEAChwKOvn954ReNlAz1p/31AE=
 		</data>
-		<key>Resources/de.lproj/ATNotificationWindowController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BNXlD61gOl9rKLHsodd66DamYxs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/de.lproj/ATPopoverViewController.strings</key>
 		<dict>
 			<key>hash</key>
@@ -161,7 +117,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gDkhoSgdT7CXAiJi1ricDv81+e8=
+			pqxFQiBC6rXdGbW8951BCiLQy/w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -197,7 +153,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LfsWmv/uFfYtB+uEPAKeGwcVqmY=
+			oBcgMP+5VJxWiJChiKovobQ/iBM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -207,6 +163,15 @@
 			<key>hash</key>
 			<data>
 			sKucP6DbYg4SqN1z0GV2M9Api0U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/de.lproj/NotificationWindow.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b3k7lqlPO9jkCayEcA5NqfJjZBQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -225,19 +190,6 @@
 			<key>hash</key>
 			<data>
 			ZR1WzCnxB+kkeddEEuYiXsXAeyc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/delete.tiff</key>
-		<data>
-		Cc/xjVHJwlZ2O1cNlZD0dCRUtyo=
-		</data>
-		<key>Resources/en.lproj/ATNotificationWindowController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PiBmD8/KUc6ZaNsNH/Vk6WvwI4o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -273,7 +225,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+9puL2pWdFDZ0EfUAsK/pBTL0ts=
+			wi/5B7kE+RKyTML+4oc46YlLCdY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -296,15 +248,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/es.lproj/ATNotificationWindowController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VstF7CAARxVGUHtfola4t+sI08U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/es.lproj/ATPopoverViewController.strings</key>
 		<dict>
 			<key>hash</key>
@@ -318,7 +261,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YGGgjYm52TsZNLRGcHAyBAFefLQ=
+			9snP4nPBoy/s49IaS6N7LuKT9eE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -354,7 +297,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PWEwLmmrvC9IbbMfaAY/ciUtwI0=
+			gvIJPN0FvnC05FrIjEHJhho/T4c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -364,6 +307,15 @@
 			<key>hash</key>
 			<data>
 			6tDf1s8fvkvqTsM0Yxf8s4hfNGY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/NotificationWindow.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Whe8flN4S1wO4ZC/AM4g6+eUvoE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -388,19 +340,11 @@
 		</dict>
 		<key>Resources/iphone.tiff</key>
 		<data>
-		64/fr3Ddk256nItPuF7TKVmbq/g=
+		atymH/O/Fam4cpMozPql1U3rHDg=
 		</data>
-		<key>Resources/list-fat-7.tiff</key>
+		<key>Resources/pixel-hc.png</key>
 		<data>
-		m4H/wHoVnr1R2Nt7B3kOQgjsTs0=
-		</data>
-		<key>Resources/long-list-mini.tiff</key>
-		<data>
-		ykqlr7qFytOcZNBzGSD4B/56HXo=
-		</data>
-		<key>Resources/start-timer.tiff</key>
-		<data>
-		8kG5quSPyD89gE23zEjrEA0u0O4=
+		kU7zjQkOWM5WhadFRKLvqJ7NXIE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -409,427 +353,452 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			9tHEUUaSiCAmfk4VEC5pCctls7o=
+			5aFAQbUxSksH/uF8mmpL1awPgaE=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "49UXC4PELU") and identifier "com.kulakov.PTHotKey"</string>
+			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = AX2FR9788Y) and identifier "com.kulakov.PTHotKey"</string>
 		</dict>
 		<key>Frameworks/ShortcutRecorder.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			FUsCoZlxprLtvQX3BUBfLUWb4Ew=
+			HDvflaQQ/YF30zqDO76qhXC13mg=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "49UXC4PELU") and identifier "com.kulakov.ShortcutRecorder"</string>
+			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = AX2FR9788Y) and identifier "com.kulakov.ShortcutRecorder"</string>
 		</dict>
 		<key>Library/LoginItems/Activity Timer Helper.app</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			d+8h+xYuHkU7lNzMc47/JNY6xPI=
+			wSKeT9vFUP3yzSYARjF8xCEIOnI=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "49UXC4PELU") and identifier "com.happy-coding.activity-timer-helper"</string>
+			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = AX2FR9788Y) and identifier "com.happy-coding.activity-timer-helper"</string>
 		</dict>
 		<key>Resources/AT_Logo.png</key>
-		<data>
-		OsNmlQR/FnhJCgslW0/E6C6UB6w=
-		</data>
-		<key>Resources/ActivityTimer.momd/ActivityTimer 2.mom</key>
-		<data>
-		IjX2wprTKy2kHAtMDYAWSbo1DkM=
-		</data>
-		<key>Resources/ActivityTimer.momd/ActivityTimer 3.mom</key>
-		<data>
-		b/fL0FAA8wkwbt7ZJ+3aug1fKdo=
-		</data>
-		<key>Resources/ActivityTimer.momd/ActivityTimer 3.omo</key>
-		<data>
-		W3jifmi2uyK3vsta8w9NdI7Sf5M=
-		</data>
-		<key>Resources/ActivityTimer.momd/ActivityTimer.mom</key>
-		<data>
-		8E6bM8QzJjNxYEE6jeL+7iwU2HQ=
-		</data>
-		<key>Resources/ActivityTimer.momd/VersionInfo.plist</key>
-		<data>
-		nW3Mxs39mDJz4jxVNIwf8v/RVQQ=
-		</data>
-		<key>Resources/AppIcon.icns</key>
-		<data>
-		4/LPuATAfWd2JcACC+LG1BmaZeI=
-		</data>
-		<key>Resources/Base.lproj/ATNotificationWindowController.nib</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			EwFByude3SffvOEY/AtpHFi+SEQ=
+			mCa02E3xtdxm+zJXKD+irdcHrlSbyQkMHbDooQnERwk=
 			</data>
-			<key>optional</key>
-			<true/>
+		</dict>
+		<key>Resources/ActivityTimer.momd/ActivityTimer 2.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hatx4p4uumsqYcp0EVv1M5KCFvFewcSJiwvs5l3wHeg=
+			</data>
+		</dict>
+		<key>Resources/ActivityTimer.momd/ActivityTimer 3.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3lJnFqdvQTRQLYzG9xFogAAkgS6KBDSR5TCxsRG5bKo=
+			</data>
+		</dict>
+		<key>Resources/ActivityTimer.momd/ActivityTimer 3.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ebwWsM7tdABlvFeFSUGNnzDgz7JhO7aNQAzGmeUMyfs=
+			</data>
+		</dict>
+		<key>Resources/ActivityTimer.momd/ActivityTimer.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HLHlfoHaCuDTvsKhJGVA20KVk1PD9QYH+Ns1wCqo4vM=
+			</data>
+		</dict>
+		<key>Resources/ActivityTimer.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pErJMVL4J1iEtAh23dSafVRjNikoEbZEuM22DllzePM=
+			</data>
+		</dict>
+		<key>Resources/AppIcon.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iE77Ibbt1DmQgTO4gGJAdUajo1SUZW9xmskPgAQ2f5s=
+			</data>
+		</dict>
+		<key>Resources/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yAm8N302p4wFf9wPEbtvb6Ffvh5sqKMpDBKYiuQqCAE=
+			</data>
 		</dict>
 		<key>Resources/Base.lproj/ATPopoverViewController.nib</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			3WOJHNYfNcOr7A1UcsVGbO/90vM=
+			a87UY+fRTXkPM8HWyFmc4B3kPOG6zgUvh4DlF0LuWPQ=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/AboutText.rtf</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			0W2MAnKsAEgyxjM2Rijh5VrlYUQ=
+			0SOQJaEn/tYuz/qlXe7bfXWwjt4LqDMT+jMZopCmvfg=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/AboutWindowController.nib</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			QBP3GPZQJrm5ApmSg02WWbPcYJk=
+			ov3Fuaf4RTHbr5wyR1zdVCfgdAnVXkPMsKnaQSO9QGY=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			zMvYBMxxceMhQ4n/SR7qzxo5Np4=
+			ZCf+G1ffP7DObfYDnT/j6U2ybzTMsOAKAu8XEmhL978=
 			</data>
-			<key>optional</key>
-			<true/>
+		</dict>
+		<key>Resources/Base.lproj/NotificationWindow.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hXQsW7O+WGr7vrJCXPbPnkFBpVojRfhYAedmmkEy3fc=
+			</data>
 		</dict>
 		<key>Resources/Base.lproj/PreferencesGeneralViewController.nib</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			R2nGZjN0as6iyzFIXn03+7hnViE=
+			P6DzIaDHvjOMOaHXAjwyHShOD4+NkKi7SQDTsYxGUs0=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/PreferencesIntervalsViewController.nib</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			RCgDLMUyrjiyGh1rfywUGXY538g=
+			IBG2uNZRSCGDhX2HnvhI7qF0sU67WcZUIr/DjCbenWI=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/HAPPY_CODING_LOGO.png</key>
-		<data>
-		BJ0stXaSSZDSk/5+yOPm11I6iCQ=
-		</data>
-		<key>Resources/archived-expanded-entitlements.xcent</key>
-		<data>
-		EPWnZClCepLXTlRBQz8jOgCUyHo=
-		</data>
-		<key>Resources/arrow-repeat-7.tiff</key>
-		<data>
-		ICmtNe2bW8R3f3fwRmX6Tw1ItOQ=
-		</data>
-		<key>Resources/button-pause-7-selected.tiff</key>
-		<data>
-		4+pF8PV1vRynaXpvsHXIahztWIQ=
-		</data>
-		<key>Resources/button-pause-7.tiff</key>
-		<data>
-		6rQTy7ao0Vof44uJZ6J6gDvbdaM=
-		</data>
-		<key>Resources/button-play-7-selected.tiff</key>
-		<data>
-		iyCfPM1QpvyyPuzU5sF8KKn3/yY=
-		</data>
-		<key>Resources/button-play-7.tiff</key>
-		<data>
-		IewBMtguA8PweP14QLvkidwjKxI=
-		</data>
-		<key>Resources/button-play-mini.tiff</key>
-		<data>
-		ztKxLXSmuNhvSTehP/NZT0PtOww=
-		</data>
-		<key>Resources/button-stop-7-selected.tiff</key>
-		<data>
-		eW2hPpC27LO9p47hhVwEgDX8UuU=
-		</data>
-		<key>Resources/button-stop-7.tiff</key>
-		<data>
-		xbzpm9NjYNdFe0P8p9ZDYQKv9jc=
-		</data>
-		<key>Resources/button-stop.tiff</key>
-		<data>
-		qdhPaVA026ApHDH3AMuVaoUFDfw=
-		</data>
-		<key>Resources/de.lproj/ATNotificationWindowController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			BNXlD61gOl9rKLHsodd66DamYxs=
+			gZTlEek14WKBN+SOBBaFHTDqp8FSfljj7EoWrH5z8wE=
 			</data>
-			<key>optional</key>
-			<true/>
+		</dict>
+		<key>Resources/arrow-repeat-7.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1Mng9tptcVGNFER1KREy8POOj16CXG/dzzQM0S276nM=
+			</data>
+		</dict>
+		<key>Resources/button-pause-7-selected.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			crexZFaTSI4Ak1YTh5faQnqrqoLYPrxt5SK9qS+9Zjc=
+			</data>
+		</dict>
+		<key>Resources/button-pause-7.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yRLCO9n9vqxm8xXq4KDFFrk4Q3pN4ksMwzHr6gmETHA=
+			</data>
+		</dict>
+		<key>Resources/button-play-7-selected.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aGL5TQas53019hUgUfNL1riWePD5zzWc5tlw3h0VqmY=
+			</data>
+		</dict>
+		<key>Resources/button-play-7.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iaR7wNMRIiUUucwET3WBX8sCVy4pVAjW5Cmc4ofk3ts=
+			</data>
+		</dict>
+		<key>Resources/button-play-mini.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KuBhmbpgiQ6zxUkhkC0KeBg4X581Nwhz5x/z4YJ58LM=
+			</data>
+		</dict>
+		<key>Resources/button-stop-7-selected.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WCrM3I5fSIuO93DykjdDKXLHdIr094WopTZj0TUdgec=
+			</data>
+		</dict>
+		<key>Resources/button-stop-7.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nrJtZuFCHrt2fYQkWvlrfpQP//JjBK538cTyxyWHqvo=
+			</data>
+		</dict>
+		<key>Resources/button-stop.tiff</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xrRWMHJKFOlor8WZ3UXklgFKnyRJy7fLbNx2ch20+3Q=
+			</data>
 		</dict>
 		<key>Resources/de.lproj/ATPopoverViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			tI87Bh9IsQ8D9QSGHrRjPfGdGL8=
+			kXc6ShlfZgLWdCzeFT+yDWphA8zzo9tE7mLIri3gPVA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/AboutText.rtf</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			gDkhoSgdT7CXAiJi1ricDv81+e8=
+			SrvflSAg+KpYaGpWud4JLZYqCzg27pQw3H27F/RMzIk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/AboutWindowController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			kM29OoQx7oINGHQuCf6nz2iBni4=
+			z55w347R/84whw8a3vlzb1w5qSkiEkh26HJOiaG3Gk0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/Credits.rtf</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			cKtUT95/4SlsFUo+/pTpRvHWBRE=
+			DXNERGj/WefDtk+JLMTZCJkYp2i0JZmelLLuHN+uEGI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			LfsWmv/uFfYtB+uEPAKeGwcVqmY=
+			qvHru9kSDNcas6j2QVIoHmGJuWL+gahnvYfgcF8Zztw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/MainMenu.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			sKucP6DbYg4SqN1z0GV2M9Api0U=
+			XM0HYSUWyEPSl9b644VlvODPXiUId/v1826bDQqQlMk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/de.lproj/NotificationWindow.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xVNukVTU3/ycjqKTDpz+ZVvNzpy/xNLBYrIG3pViQXw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/PreferencesGeneralViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			Q/qyqfQNs2d5e62p6ztyX4z5CXM=
+			qhvFan1GRuEMIr8RUgbeuzKy3T1RvIJkmahfZn9bd5Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/de.lproj/PreferencesIntervalsViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			ZR1WzCnxB+kkeddEEuYiXsXAeyc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/delete.tiff</key>
-		<data>
-		Cc/xjVHJwlZ2O1cNlZD0dCRUtyo=
-		</data>
-		<key>Resources/en.lproj/ATNotificationWindowController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PiBmD8/KUc6ZaNsNH/Vk6WvwI4o=
+			DdFCwaXOXwKUTsvQrJZar0zUKRQawYyf1NKnTvSlqjY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/en.lproj/ATPopoverViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			IRxbPOfdhUsES5kruVHf1xCyffI=
+			1NOvShAWPQ6SCser74L7cFCzIHG5A+OswnGFkfB3EBU=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			cKtUT95/4SlsFUo+/pTpRvHWBRE=
+			DXNERGj/WefDtk+JLMTZCJkYp2i0JZmelLLuHN+uEGI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			+9puL2pWdFDZ0EfUAsK/pBTL0ts=
+			YljCiCZvKMSV4FlzWJh8pWa0KFpbBO6XGJ0mXSJkPKQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/en.lproj/PreferencesGeneralViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			Vm4H8TRiz0maZvtOr2LvwTNtjp0=
+			/3B8nfGKD1aMmdeCn1Js7C4tjAAxdEAiz86ec4+n8zM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/en.lproj/PreferencesIntervalsViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			Zo0fbzGDBxduViKl2MNGXhO6kqg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/es.lproj/ATNotificationWindowController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VstF7CAARxVGUHtfola4t+sI08U=
+			UCqA5sJjyzhBX44YY6BDTCvZgtegRjd64lsxsBPWJjo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/ATPopoverViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			1dhnOsFkk6nmxgL4H2W63UtvK+I=
+			fvJ5msGO2C7w+0l1b6TswZuE9qGtr6FyOh2xBALbrOo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/AboutText.rtf</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			YGGgjYm52TsZNLRGcHAyBAFefLQ=
+			1pH8WA6TlhS107T2X/MsDl4KvPsr8x2Wp/QVvFLVHrU=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/AboutWindowController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			L+ThgwlyBsTMh5GlY/Az28R9AJ0=
+			OqlG9BAI3Yv/PTG+YyGWfhHwdSoyjyUpAT3oo74zewo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/Credits.rtf</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			cKtUT95/4SlsFUo+/pTpRvHWBRE=
+			DXNERGj/WefDtk+JLMTZCJkYp2i0JZmelLLuHN+uEGI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			PWEwLmmrvC9IbbMfaAY/ciUtwI0=
+			xK6TmOsjAFl/8tN8hAa+MJGb9nTdHADCRiiKu++ehpg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/MainMenu.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			6tDf1s8fvkvqTsM0Yxf8s4hfNGY=
+			O1hSC+t2nm9EdhZeIUdlQE3UPlwyifysJqP7EpD31gw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/NotificationWindow.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			97EN+namjOEeJqdAAze0jMVkUaVQcue1l6tK/jrtSIo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/PreferencesGeneralViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			Xvmjr6+FbCVMNOBGqBko19G1fPo=
+			3AZ+gJwoeJuCGVD8gNviA0lHZcIzoqSLpnIHeThzlOE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/es.lproj/PreferencesIntervalsViewController.strings</key>
 		<dict>
-			<key>hash</key>
+			<key>hash2</key>
 			<data>
-			C/D0ODTXGuiyWjS0zpULmpD/bD0=
+			froedCbZZ0oApza1rUIfEl4NvhWazqBt4k7di2dOyhg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/iphone.tiff</key>
-		<data>
-		64/fr3Ddk256nItPuF7TKVmbq/g=
-		</data>
-		<key>Resources/list-fat-7.tiff</key>
-		<data>
-		m4H/wHoVnr1R2Nt7B3kOQgjsTs0=
-		</data>
-		<key>Resources/long-list-mini.tiff</key>
-		<data>
-		ykqlr7qFytOcZNBzGSD4B/56HXo=
-		</data>
-		<key>Resources/start-timer.tiff</key>
-		<data>
-		8kG5quSPyD89gE23zEjrEA0u0O4=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EeU180BsgrP1M4EoCVBTrPQ3UAetOHxK8FCIKsDJsgM=
+			</data>
+		</dict>
+		<key>Resources/pixel-hc.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o9IgLvcG3fpgqS0cgOheH2QcGRUgI7cZutph8uzV3P8=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -848,6 +817,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -907,6 +881,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
