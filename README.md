@@ -19,6 +19,7 @@ Use the private.xml file in the Karabiner directory
 ## Main apps
 - [`iTerm2`](https://iterm2.com/): Better terminal replacement
 - [`Oh My Zsh`](https://ohmyz.sh/): Zsh shell improvements
+- [`z`](https://github.com/rupa/z): Jump around common CLI directories
 - [`Homebrew`](https://brew.sh/): Mac package manager
 - [`VSCode`](https://code.visualstudio.com/): IDE for code editing
 
