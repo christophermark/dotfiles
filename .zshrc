@@ -1,5 +1,24 @@
+
+### oh-my-zsh setup ###
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="robbyrussell"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+plugins=(git z)
+
+source $ZSH/oh-my-zsh.sh
 
 ############################################################
 
@@ -13,14 +32,16 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # NOTE: Run this after to apply pretty git diffs:
 # > git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 export PATH="$HOME/Library/diff-so-fancy:$PATH"
+# Add Postgres to the path
+export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 # Add python scripts to the path
 export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
 export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:${PYTHONPATH}"
 
 # Change the java version to explicitly use Java 7
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_241`
-export NDK_MODULE_PATH="$HOME/Library/Android/android-ndk-r21"
-export ANDROID_NDK="$HOME/Library/Android/android-ndk-r21"
+export JAVA_HOME=`/usr/libexec/java_home -v 17.0.10`
+# export NDK_MODULE_PATH="$HOME/Library/Android/android-ndk-r21"
+# export ANDROID_NDK="$HOME/Library/Android/android-ndk-r21"
 
 # Set the default editor (note: will set the ZLE to vi mode)
 export EDITOR=vim
@@ -36,6 +57,9 @@ alias cleanBranches="{prBranches ; mergedBranches ; deleteBranches ;} | xargs gi
 # Pull down latest changes and clean merged branches
 alias update="git checkout develop && git pull -r origin develop"
 alias cleanup="update && cleanBranches"
+# Prune merged branches
+alias gone="git remote prune origin && git branch -vv | grep ': gone]' | awk '{print \$1}'"
+alias pruneGone="gone | xargs git branch -D"
 
 # Checkout a PR branch from the `origin` branch. Example: `pr 123` checks out PR 123
 pr() {
@@ -53,6 +77,36 @@ br() {
   command git reflog | grep checkout | grep -o -E 'to (.*)' | sed -e 's/to/  /' | sed -e '1s/   / ∗ /' | sed -e '1s/^/git branch history:\'$'\n/' | sed -e '1s/$/\'$'\n/' | awk ' !x[$0]++' | head -n $(($LINES_TO_OUTPUT+2))
 }
 
+# Fuzzy find git branch checkout
+fzf-git-branch() {
+    git rev-parse HEAD > /dev/null 2>&1 || return
+
+    git branch --color=always --all --sort=-committerdate |
+        grep -v HEAD |
+        fzf --height 50% --ansi --no-multi --preview-window right:65% \
+            --preview 'git log -n 50 --color=always --date=short --pretty="format:%C(auto)%cd %h%d %s" $(sed "s/.* //" <<< {})' |
+        sed "s/.* //"
+}
+fzf-git-checkout() {
+    git rev-parse HEAD > /dev/null 2>&1 || return
+
+    local branch
+
+    branch=$(fzf-git-branch)
+    if [[ "$branch" = "" ]]; then
+        echo "No branch selected."
+        return
+    fi
+
+    # If branch name starts with 'remotes/' then it is a remote branch. By
+    # using --track and a remote branch name, it is the same as:
+    # git checkout -b branchName --track origin/branchName
+    if [[ "$branch" = 'remotes/'* ]]; then
+        git checkout --track $branch
+    else
+        git checkout $branch;
+    fi
+}
 
 ########## Random Handy Aliases ##########
 
@@ -125,80 +179,6 @@ bindkey -s "^[Om" "-"
 bindkey -s "^[Oj" "*"
 bindkey -s "^[Oo" "/"
 
-############################################################
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git z)
-
-source $ZSH/oh-my-zsh.sh
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 # Set up NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -229,3 +209,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Rbenv
 eval "$(rbenv init - zsh)"
+
+alias gb='fzf-git-branch'
+alias gco='fzf-git-checkout'
+eval "$(/opt/homebrew/opt/rbenv/bin/rbenv init -)"
