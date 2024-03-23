@@ -48,7 +48,8 @@ export EDITOR=vim
 # Bring back the default ZLE mode, undoing the change to vi mode above
 bindkey -e
 
-########## Git Aliases ##########
+########## Git Aliases ###########################################
+
 # Delete any merged branches
 alias mergedBranches="git branch --merged | egrep -v '(^\*|master|dev|release)'"
 alias prBranches="git branch | egrep '^\s*pr-\d'"
@@ -108,6 +109,23 @@ fzf-git-checkout() {
     fi
 }
 
+clone_and_start_maintenance() {
+    # Background reading: https://www.alchemists.io/articles/git_maintenance
+    if [ $# -ne 1 ]; then
+        echo "Usage: clone_and_start_maintenance <repository_url>"
+        return 1
+    fi
+
+    # Extract the repository name
+    repo_name=$(echo "$1" | sed 's|.*/\([^/]*\)\.git$|\1|')
+
+    # - Clone the repository
+    # - Open the new repository
+    # - Run `git maintenance start`
+    git clone "$1" "$repo_name" && cd "$repo_name" && git maintenance start
+}
+alias gitclone='clone_and_start_maintenance'
+
 ########## Random Handy Aliases ##########
 
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -146,7 +164,9 @@ done
 # Overwrite the debug config - it requires some extra steps
 alias runDebug="assembleDebug && installDebug && reverse && robin"
 
-# Hide yo secrets, hide yo wife
+#### General setup ##########################################
+
+# Hide yo secrets
 if [ -f ~/.secrets ]; then
   source ~/.secrets
 fi
