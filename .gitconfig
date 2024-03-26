@@ -1,5 +1,3 @@
 [user]
 	name = Christopher Mark
-	email = chris@robinpowered.com
-[merge]
-	ff = no
+	# email = [insert email here]
