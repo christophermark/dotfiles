@@ -171,9 +171,6 @@ if [ -f ~/.secrets ]; then
   source ~/.secrets
 fi
 
-# Add Z functionality
-. `brew --prefix`/etc/profile.d/z.sh
-
 ############################################################
 
 # Map the numpad to work correctly. (only works for zsh emacs line editor mode)
