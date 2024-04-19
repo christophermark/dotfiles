@@ -1,3 +1,12 @@
 [user]
 	name = Christopher Mark
 	# email = [insert email here]
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[alias]
+	gone = !git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}'
+	gone-prune = !git gone | xargs git branch -d
+[rerere]
+	enabled = true
