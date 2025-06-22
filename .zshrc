@@ -23,6 +23,8 @@ source $ZSH/oh-my-zsh.sh
 ############################################################
 
 # PATH
+# Homebrew
+export PATH="/opt/homebrew/bin:$PATH"
 # ADB and Android SDK tools
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 export PATH="$HOME/Library/Android/sdk/build-tools/28.0.3:$PATH"
