@@ -48,6 +48,13 @@ export EDITOR=vim
 # Bring back the default ZLE mode, undoing the change to vi mode above
 bindkey -e
 
+# Make Option+Left/Right jump words (they send ^[[1;3D / ^[[1;3C)
+bindkey '^[[1;3D' backward-word
+bindkey '^[[1;3C' forward-word
+
+# (Optional) make Option+Backspace delete previous word
+bindkey '^[^?' backward-kill-word
+
 ########## Git Aliases ###########################################
 
 # Delete any merged branches
