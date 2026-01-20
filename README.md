@@ -25,10 +25,12 @@ Use the private.xml file in the Karabiner directory
 
 - [`Tunnelblick`](https://tunnelblick.net/downloads.html): VPN software
 - [`Activity Timer App`](https://apps.apple.com/us/app/activity-timer/id808647808?mt=12): Excellent app for pomodoro sessions
-- [`GPGTools`](https://gpgtools.org): For Git commit signature verification
-- [`Postman`](https://www.postman.com/downloads/): For testing API calls
+- [`GPGTools`](https://gpgtools.org): For Git commit signature verification (use Github setup guide)
+- API Client
+  - [`Bruno`](https://www.usebruno.com): Good for GraphQL, local
+  - [`Postman`](https://www.postman.com/downloads/): For testing API calls
 - [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
-- [`Sourcetree`](https://www.sourcetreeapp.com/): Great for viewing git diffs and branch visuals
+- [`Fork`](https://git-fork.com): Great for viewing git diffs and branch visuals
 - [`Network Link Conditioner`](https://nshipster.com/network-link-conditioner/): For debugging/testing poor network conditions
 - [`Sip`](https://sipapp.io/): For peeking color hexes
 - [`Android Tool`](https://github.com/muandrew/androidtool-mac/releases/): For Android screen recordings (alternative to Android Studio/Flipper)
