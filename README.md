@@ -1,5 +1,5 @@
 # Dotfiles
-**Currently a Work-In-Progress until I get symlinks and an installation script working.** <br>
+**TODO: Symlinks and an installation script.** <br>
 Some things to remember and keep when getting dev environments up and running.
 
 #### Terminal formatting
