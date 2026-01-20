@@ -51,4 +51,4 @@ Use the private.xml file in the Karabiner directory
 - [`Pixel Winch`](https://www.ricciadams.com/projects/pixel-winch): For counting pixels and measuring UI
 - [`Sip App`](http://sipapp.io/): Inspect colors on your screen
 - [`Color Picker`](https://itunes.apple.com/us/app/color-picker/id641027709?mt=12): For choosing colors
-- [`Disk Inventory X`](http://www.derlien.com/): For cleaning out a full hard drive, shows sizes of directories/files
+- [`Squirrel Disk`](https://www.squirreldisk.com): For cleaning out a full hard drive, shows sizes of directories/files
