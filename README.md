@@ -19,13 +19,13 @@ Use the private.xml file in the Karabiner directory
 ## Main apps
 - [`iTerm2`](https://iterm2.com/): Better terminal replacement
 - [`Oh My Zsh`](https://ohmyz.sh/): Zsh shell improvements
-- [`z`](https://github.com/rupa/z): Jump around common CLI directories
+  - [`z`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z): Jump around common CLI directories (already enabled via .zshrc)
 - [`Homebrew`](https://brew.sh/): Mac package manager
 - [`VSCode`](https://code.visualstudio.com/): IDE for code editing
 
 - [`Tunnelblick`](https://tunnelblick.net/downloads.html): VPN software
 - [`Activity Timer App`](https://apps.apple.com/us/app/activity-timer/id808647808?mt=12): Excellent app for pomodoro sessions
-- [`GnuPG`](https://www.gnupg.org/download/): For Git commit signature verification
+- [`GPGTools`](https://gpgtools.org): For Git commit signature verification
 - [`Postman`](https://www.postman.com/downloads/): For testing API calls
 - [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
 - [`Sourcetree`](https://www.sourcetreeapp.com/): Great for viewing git diffs and branch visuals
