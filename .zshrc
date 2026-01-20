@@ -39,7 +39,9 @@ export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/
 export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:${PYTHONPATH}"
 
 # Change the java version to explicitly use Java 7
-export JAVA_HOME=`/usr/libexec/java_home -v 17.0.10`
+if /usr/libexec/java_home -v 17 >/dev/null 2>&1; then
+  export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
+fi
 # export NDK_MODULE_PATH="$HOME/Library/Android/android-ndk-r21"
 # export ANDROID_NDK="$HOME/Library/Android/android-ndk-r21"
 
