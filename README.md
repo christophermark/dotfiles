@@ -34,6 +34,7 @@ Use the private.xml file in the Karabiner directory
 - [`Network Link Conditioner`](https://nshipster.com/network-link-conditioner/): For debugging/testing poor network conditions
 - [`Sip`](https://sipapp.io/): For peeking color hexes
 - [`Android Tool`](https://github.com/muandrew/androidtool-mac/releases/): For Android screen recordings (alternative to Android Studio/Flipper)
+- [`Proxyman`](https://apps.apple.com/us/app/proxyman-capture-https/id1551292695): For intercepting network requests
 
 ## New computer setup
 ### Git
