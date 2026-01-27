@@ -27,9 +27,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/opt/homebrew/bin:$PATH"
 # CLI tools
 export PATH="$HOME/.local/bin:$PATH"
-# ADB and Android SDK tools
-export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
-export PATH="$HOME/Library/Android/sdk/build-tools/28.0.3:$PATH"
 # Add diff-so-fancy for pretty git diffs
 # NOTE: Run this after to apply pretty git diffs:
 # > git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
@@ -40,15 +37,16 @@ export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
 export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:${PYTHONPATH}"
 
-# Set up Java SDK to explicitly use Java 17 (best for Android)
+########## Android development ###########################################
+# ADB and Android SDK tools
+export PATH="$HOME/Library/Android/sdk:$PATH"
+# Pin Java SDK to explicitly use Java 17 (best for Android)
 # To install: `brew install --cask zulu@17`
 if [ -d "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home" ]; then
   export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home"
 elif /usr/libexec/java_home -v 17 >/dev/null 2>&1; then
   export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
 fi
-# export NDK_MODULE_PATH="$HOME/Library/Android/android-ndk-r21"
-# export ANDROID_NDK="$HOME/Library/Android/android-ndk-r21"
 
 # Maestro, if it exists
 [ -d "$HOME/.maestro/bin" ] && export PATH="$PATH:$HOME/.maestro/bin"
