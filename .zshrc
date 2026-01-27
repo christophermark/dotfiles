@@ -40,8 +40,11 @@ export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
 export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:${PYTHONPATH}"
 
-# Change the java version to explicitly use Java 17
-if /usr/libexec/java_home -v 17 >/dev/null 2>&1; then
+# Set up Java SDK to explicitly use Java 17 (best for Android)
+# To install: `brew install --cask zulu@17`
+if [ -d "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home" ]; then
+  export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home"
+elif /usr/libexec/java_home -v 17 >/dev/null 2>&1; then
   export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
 fi
 # export NDK_MODULE_PATH="$HOME/Library/Android/android-ndk-r21"
