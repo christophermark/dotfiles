@@ -40,12 +40,15 @@ export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
 export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin:${PYTHONPATH}"
 
-# Change the java version to explicitly use Java 7
+# Change the java version to explicitly use Java 17
 if /usr/libexec/java_home -v 17 >/dev/null 2>&1; then
   export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
 fi
 # export NDK_MODULE_PATH="$HOME/Library/Android/android-ndk-r21"
 # export ANDROID_NDK="$HOME/Library/Android/android-ndk-r21"
+
+# Maestro, if it exists
+[ -d "$HOME/.maestro/bin" ] && export PATH="$PATH:$HOME/.maestro/bin"
 
 # Set the default editor (note: will set the ZLE to vi mode)
 export EDITOR=vim
