@@ -15,14 +15,15 @@ https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 - Don't forget to *set* these themes in VSCode's settings
 
 ## Install extensions
-https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
-https://marketplace.visualstudio.com/items?itemName=pnp.polacode
-https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock
-https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
-https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-https://marketplace.visualstudio.com/items?itemName=joelday.docthis
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
-https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+- https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
+- https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+- https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock
+- https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+- https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+- https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+- https://marketplace.visualstudio.com/items?itemName=joelday.docthis
+- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
+- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+- https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+- https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
