@@ -1,0 +1,11 @@
+## Terminal setup
+- [ ] Download [`iTerm2`](https://iterm2.com/) terminal app
+  - [ ]
+- [ ] Install [`Homebrew`](https://brew.sh/): Mac package manager
+- [ ] Set up git
+  - [ ] [Follow git setup instructions](/terminal/git-setup.md)
+  - [ ] Ensure all dotfiles were cloned (especially .zshrc)
+- [ ] Install [`Oh My Zsh`](https://ohmyz.sh/): Zsh shell improvements
+  - [x] [`z`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z): Jump around common CLI directories (already enabled via .zshrc)
+  - [ ] Check that our .zshrc wasn't overwritten by the install
+- [ ] 
