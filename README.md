@@ -1,6 +1,13 @@
-# Dotfiles
-**TODO: Symlinks and an installation script.** <br>
-Some things to remember and keep when getting dev environments up and running.
+# New computer setup
+### Download essential Mac apps
+- [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scrollwheel direction while keeping trackpad scroll direction
+- [`SteelSeries ExactMouse`](/apps): Remove mouse acceleration for external mice, but not trackpads
+  - Easier: download via GitHub, you don't have git set up yet
+- [`iTerm2`](https://iterm2.com/) terminal replacement
+- [`VSCode`](https://code.visualstudio.com/): IDE
+
+### Terminal setup
+
 
 #### Terminal formatting
 - Color Profile: HomeBrew
