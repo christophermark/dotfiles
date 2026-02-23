@@ -7,6 +7,11 @@
 - [`VSCode`](https://code.visualstudio.com/): IDE
 
 ### Terminal setup
+- [Terminal setup guide](/terminal/README.md)
+
+### Other important software
+- [`Fork`](https://git-fork.com): Viewing git diffs and branch visuals
+- [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
 
 
 #### Terminal formatting

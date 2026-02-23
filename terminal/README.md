@@ -1,6 +1,7 @@
 ## Terminal setup
 - [ ] Download [`iTerm2`](https://iterm2.com/) terminal app
-  - [ ]
+  - [ ] Follow [iTerm customization instructions](/terminal/iterm-setup.md)
+- [ ] Add Xcode command line tools: `xcode-select --install`
 - [ ] Install [`Homebrew`](https://brew.sh/): Mac package manager
 - [ ] Set up git
   - [ ] [Follow git setup instructions](/terminal/git-setup.md)
