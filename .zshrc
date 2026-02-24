@@ -23,7 +23,15 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
 
-plugins=(git z)
+plugins=(
+  git 
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  copypath
+  copyfile
+  z
+  colored-man-pages
+)
 
 source $ZSH/oh-my-zsh.sh
 
