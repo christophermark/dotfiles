@@ -9,4 +9,4 @@
 - [ ] Install [`Oh My Zsh`](https://ohmyz.sh/): Zsh shell improvements
   - [x] [`z`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z): Jump around common CLI directories (already enabled via .zshrc)
   - [ ] Check that our .zshrc wasn't overwritten by the install
-- [ ] 
+- [ ] Install [PowerLevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh) for Zsh

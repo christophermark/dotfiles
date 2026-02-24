@@ -9,24 +9,19 @@
 ### Terminal setup
 - [Terminal setup guide](/terminal/README.md)
 
-### Other important software
+### Mac specific setup
+- Set TextEdit default fonts: `SF Pro Regular 36`
+- Preferences: Automatically show and hide the dock
+- [Set a screenshots directory](https://apple.stackexchange.com/a/258696) and pin it in Finder
+  ```
+  mkdir ~/Screenshots
+  defaults write com.apple.screencapture location ~/Screenshots
+  ```
+
+### Workflow software
 - [`Fork`](https://git-fork.com): Viewing git diffs and branch visuals
 - [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
-
-
-#### Terminal formatting
-- Color Profile: HomeBrew
-- Text Color: White
-- Text Size: 14 pt
-- [Shell tab] When the shell exits: close the window
-- [Advanced tab] Uncheck "Allow VT100 application keypad mode" to allow numpad in Vim.
-
-#### TODO
-Sync installed packages via "starred" repos.
-https://discuss.atom.io/t/bower-style-package-json-to-import-install-packages-across-devices/11587/2
-
-## Karabiner key mappings
-Use the private.xml file in the Karabiner directory
+  - Set hotkey: `⌘` + `Shift` + `V`
 
 ## Main apps
 - [`iTerm2`](https://iterm2.com/): Better terminal replacement
@@ -53,8 +48,7 @@ Use the private.xml file in the Karabiner directory
 - [Set git commit email](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
 - [Set up Github SSH key authentication](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 - [Set up git commit verification](https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
-### Screenshots
-- [Set a screenshots directory](https://apple.stackexchange.com/a/258696)
+
 
 ## Miscellaneous Apps
 - [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scroll wheel direction while keeping track pad direction
