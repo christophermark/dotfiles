@@ -1,0 +1,7 @@
+# macOS metadata
+.DS_Store
+
+# Editor state
+*.swp
+*.swo
+*~

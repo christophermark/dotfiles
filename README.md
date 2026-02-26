@@ -10,7 +10,7 @@
 - [Terminal setup guide](/terminal/README.md)
 
 ### Mac specific setup
-- Set TextEdit default fonts: `SF Pro Regular 36`
+- Set TextEdit default fonts: [SF Pro](https://developer.apple.com/fonts/) `Regular` `36`
 - Preferences: Automatically show and hide the dock
 - [Set a screenshots directory](https://apple.stackexchange.com/a/258696) and pin it in Finder
   ```
