@@ -1,24 +1,35 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Dark Pro",
-    "editor.fontFamily": "Source code pro, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "editor.tabSize": 2,
-    "editor.renderWhitespace": "boundary",
-    // Prevent scrolling past last line of code in file
-    "editor.scrollBeyondLastLine": false,
-    // Disable doclbock/tooltip hints (were getting annoying)
-    "editor.parameterHints": false,
-    "react-native-storybooks.port": 7007,
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "files.trimTrailingWhitespace": true,
-    // Ruler for recommended line length
-    "editor.rulers": [120],
-    // Disable code block highlighting of merge conflicts
-    "merge-conflict.decorators.enabled": false,
-    // Prevent left explorer from jumping to the current file
-    "explorer.autoReveal": false,
-    "editor.minimap.enabled": false
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontFamily": "Source code pro, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  // Prevent scrolling past last line of code in file
+  "editor.scrollBeyondLastLine": false,
+  // Disable doclbock/tooltip hints (were getting annoying)
+  "editor.parameterHints": false,
+  "react-native-storybooks.port": 7007,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "files.trimTrailingWhitespace": true,
+  // Ruler for recommended line length
+  "editor.rulers": [120],
+  // Disable code block highlighting of merge conflicts
+  "merge-conflict.decorators.enabled": false,
+  // Prevent left explorer from jumping to the current file
+  "explorer.autoReveal": false,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.fixAll.eslint"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "files.exclude": {
+    "node_modules/": true
+  }
 }
