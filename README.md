@@ -1,5 +1,7 @@
 # New computer setup
+
 ### Download essential Mac apps
+
 - [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scrollwheel direction while keeping trackpad scroll direction
 - [`SteelSeries ExactMouse`](/apps): Remove mouse acceleration for external mice, but not trackpads
   - Easier: download via GitHub, you don't have git set up yet
@@ -7,9 +9,11 @@
 - [`VSCode`](https://code.visualstudio.com/): IDE
 
 ### Terminal setup
+
 - [Terminal setup guide](/terminal/README.md)
 
 ### Mac specific setup
+
 - Set TextEdit default fonts: [SF Pro](https://developer.apple.com/fonts/) `Regular` `36`
 - Preferences: Automatically show and hide the dock
 - [Set a screenshots directory](https://apple.stackexchange.com/a/258696) and pin it in Finder
@@ -19,11 +23,13 @@
   ```
 
 ### Workflow software
+
 - [`Fork`](https://git-fork.com): Viewing git diffs and branch visuals
 - [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
   - Set hotkey: `⌘` + `Shift` + `V`
 
 ## Main apps
+
 - [`iTerm2`](https://iterm2.com/): Better terminal replacement
 - [`Oh My Zsh`](https://ohmyz.sh/): Zsh shell improvements
   - [`z`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z): Jump around common CLI directories (already enabled via .zshrc)
@@ -44,13 +50,15 @@
 - [`Proxyman`](https://apps.apple.com/us/app/proxyman-capture-https/id1551292695): For intercepting network requests
 
 ## New computer setup
+
 ### Git
+
 - [Set git commit email](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
 - [Set up Github SSH key authentication](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 - [Set up git commit verification](https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
 
-
 ## Miscellaneous Apps
+
 - [`Scroll Reverser`](https://pilotmoon.com/scrollreverser/): Fix mouse scroll wheel direction while keeping track pad direction
 - `SteelSeries ExactMouse`: Remove all mouse acceleration only for external mice, not the track pad
   - See the `apps` directory in this repository to download
