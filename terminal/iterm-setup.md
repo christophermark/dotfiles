@@ -16,16 +16,19 @@
 - Keys → Hotkey → Create a Dedicated Hotkey Window: Set to ⌘ + ⌥ + I for instant terminal access from anywhere.
 
 ### Install a Nerd Font
+
 Nerd Fonts are patched fonts that include icons used by themes like Powerlevel10k. The community overwhelmingly recommends MesloLGS NF.
 
 ```
 brew install --cask font-meslo-lg-nerd-font
 ```
+
 Then set it in iTerm2:
 
 - Profiles → Text → Font → select "MesloLGS Nerd Font" or "MesloLGS NF"
 
 ### Pick a Color Scheme
+
 The most popular community color schemes (all available at iterm2colorschemes.com):
 | Scheme | Vibe |
 |---|---|
@@ -38,4 +41,5 @@ The most popular community color schemes (all available at iterm2colorschemes.co
 | One Dark | Port of the beloved Atom editor theme |
 
 Then import:
+
 - Profiles → Colors → Color Presets → Import… → select the .itermcolors file → then select it from the dropdown.

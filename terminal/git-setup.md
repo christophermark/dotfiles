@@ -5,20 +5,20 @@
   - [ ] Register the key again [as an SSH signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
   - [ ] Add your [signing key to git](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key#telling-git-about-your-ssh-key)
 - [ ] Clone this dotfiles project
-    ```
-    mkdir ~/dev
-    cd ~/dev
-    git clone git@github.com:christophermark/dotfiles.git
-    ```
+  ```
+  mkdir ~/dev
+  cd ~/dev
+  git clone git@github.com:christophermark/dotfiles.git
+  ```
 - [ ] Copy all dotfiles
-    ```
-    cp ~/dev/dotfiles/.* ~/
-    ```
+  ```
+  cp ~/dev/dotfiles/.* ~/
+  ```
 - [ ] Set your email in `.gitconfig`
 - [ ] Set up local commit verification
-    ```
-    echo "$(git config user.email) $(cat ~/.ssh/id_ed25519.pub)" >> ~/.ssh/allowed_signers
-    git config --global gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
-    ```
+  ```
+  echo "$(git config user.email) $(cat ~/.ssh/id_ed25519.pub)" >> ~/.ssh/allowed_signers
+  git config --global gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
+  ```
 - [ ] Check that commits and commit verification works by pushing a change to a private repo
 - [ ] Set up `gh`, the [GitHub CLI](https://cli.github.com/)

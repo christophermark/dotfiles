@@ -1,4 +1,5 @@
 ## Terminal setup
+
 - [ ] Download [`iTerm2`](https://iterm2.com/) terminal app
   - [ ] Follow [iTerm customization instructions](/terminal/iterm-setup.md)
 - [ ] Add Xcode command line tools: `xcode-select --install`
@@ -11,7 +12,7 @@
   - [ ] Check that our .zshrc wasn't overwritten by the install
 
 ### Zsh improvements
+
 - [ ] Install [PowerLevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh) for Zsh
 - [ ] [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 - [ ] [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-
