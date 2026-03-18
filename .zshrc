@@ -54,7 +54,7 @@ export PYTHONPATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Version
 
 ########## Android development ###########################################
 # ADB and Android SDK tools
-export PATH="$HOME/Library/Android/sdk:$PATH"
+export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH"
 export ANDROID_HOME=$HOME/Library/Android/sdk
 # Pin Java SDK to explicitly use Java 17 (best for Android)
 # To install: `brew install --cask zulu@17`
