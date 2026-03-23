@@ -45,7 +45,8 @@
 - [`Sourcenote`](https://www.sourcenoteapp.com/): Stores text snippets with a hotkey
 - [`Fork`](https://git-fork.com): Great for viewing git diffs and branch visuals
 - [`Network Link Conditioner`](https://nshipster.com/network-link-conditioner/): For debugging/testing poor network conditions
-- [`Sip`](https://sipapp.io/): For peeking color hexes
+- [`Digital Color Meter`](https://support.apple.com/guide/digital-color-meter/welcome/mac): `CMD` + `Shift` + `C` to copy color
+  - `View` -> `Display Values` -> `As Hexadecimal`
 - [`Android Tool`](https://github.com/muandrew/androidtool-mac/releases/): For Android screen recordings (alternative to Android Studio/Flipper)
 - [`Proxyman`](https://apps.apple.com/us/app/proxyman-capture-https/id1551292695): For intercepting network requests
 
